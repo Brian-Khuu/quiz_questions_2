@@ -1,0 +1,201 @@
+{
+   "Python_Quiz": [     
+        {
+          "id": 1,
+          "question_type": "MC",
+          "question": "What is the current version of python?",
+          "choices": {
+            "choice_A": "2.7.4",
+            "choice_B": "3.8.2",
+            "choice_C": "1.1",
+            "choice_D": "3.7.7"
+          },
+          "correct_answer": "B",
+          "explanation": "The most up-to-date python version is 3.8.2."
+        },
+        
+        {
+          "id": 2,
+          "question_type": "MC",
+          "question": "What isn't a python data type?",
+          "choices": {
+            "choice_A": "list",
+            "choice_B": "dict",
+            "choice_C": "int",
+            "choice_D": "double"
+          },
+          "correct_answer": "D",
+          "explanation": "Double is not a data type in python, it is in java."
+        },
+        
+        {
+          "id":3,
+          "question_type": "MC",
+          "question": "What is the modulo operator in python?",
+          "choices": {
+            "choice_A": "+",
+            "choice_B": "/",
+            "choice_C": "%",
+            "choice_D": "-"
+          },
+          "correct_answer": "C",
+          "explanation": "The modulo operator in python is %."
+        },
+        
+        {
+          "id":4,
+          "question_type": "MC",
+          "question": "What is the correct syntax for initializing variables in python?",
+          "choices": {
+            "choice_A": "x = 5",
+            "choice_B": "String name = 'Mary'",
+            "choice_C": "var x = 5",
+            "choice_D": "int x = 5"
+          },
+          "correct_answer": "A",
+          "explanation": "The correct syntax for initailizing variables in python is 'x = 5'"
+        },
+        
+        {
+          "id":5,
+          "question_type": "MC",
+          "question": "What is the correct syntax for initializing arrays in python?",
+          "choices": {
+            "choice_A": "arr = (0, 1, 2)",
+            "choice_B": "arr(0, 1, 2)",
+            "choice_C": "arr = {0, 1, 2}",
+            "choice_D": "arr = [0, 1, 2]"
+          },
+          "correct_answer": "D",
+          "explanation": "The correct syntax to initialize arrays is arr = [0, 1, 2]."
+        },
+        
+        {
+          "id":6,
+          "question_type": "TF",
+          "question": "Semi-colons are considered pythonic.",
+          "choices": {
+            "choice_A": "True",
+            "choice_B": "False"
+          },
+          "correct_answer": "B",
+          "explanation": "Pythonic code usually includes single statements on each line indicated by tabbing."
+        },
+        
+        {
+          "id":7,
+          "question_type": "TF",
+          "question": "Python has booleans.",
+          "choices": {
+            "choice_A": "True",
+            "choice_B": "False"
+          },
+          "correct_answer": "A",
+          "explanation": "Booleans values and functions are included in python."
+        },
+        
+        {
+          "id":8,
+          "question_type": "TF",
+          "question": "You can create Dictionaries in python.",
+          "choices": {
+            "choice_A": "True",
+            "choice_B": "False"
+          },
+          "correct_answer": "A",
+          "explanation": "Dictionaries can be created and used within python."
+        },
+        
+        {
+          "id":9,
+          "question_type": "FillIn",
+          "question": "________ are used to store values.",
+          "correct_answer": "Variables",
+          "explanation": "To store values in python, variables are used."
+        },
+        
+        {
+          "id":10,
+          "question_type": "FillIn",
+          "question": "A while loop can be used to ________ through statements.",
+          "correct_answer": "iterate",
+          "explanation": "A while loop can be used to iterate through code multiple times depending on the condition."
+        },
+        
+        {
+          "id":11,
+          "question_type": "FillIn",
+          "question": "An array starts with the index value ________.",
+          "correct_answer": "zero",
+          "explanation": "Arrays always starts indexing from the value zero."
+        },
+        
+        {
+          "id":12,
+          "question_type": "FillIn",
+          "question": "________ values consist of zeros and ones.",
+          "correct_answer": "Binary",
+          "explanation": "Binary code consists of 0s and 1s"
+        },
+        
+        {
+          "id":13,
+          "question_type": "Image",
+          "question": "What does the following represent?",
+          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizpic_1.png?raw=true",
+          "choices": {
+            "choice_A": "Array",
+            "choice_B": "List",
+            "choice_C": "Tuple",
+            "choice_D": "Dictionary"
+          },
+          "correct_answer": "D",
+          "explanation": "The picture represents a dictionary."
+        },
+        
+        {
+          "id":14,
+          "question_type": "Image",
+          "question": "What does the following represent?",
+          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizpic_2.png?raw=true",
+          "choices": {
+            "choice_A": "If...else statements",
+            "choice_B": "Sets",
+            "choice_C": "Lambda statements",
+            "choice_D": "Booleans"
+          },
+          "correct_answer": "A",
+          "explanation": "The picture demostrates the use of if...else statements."
+        },
+        
+        {
+          "id":15,
+          "question_type": "Image",
+          "question": "What does the following represent?",
+          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizpic_3.png?raw=true",
+          "choices": {
+            "choice_A": "For Loop",
+            "choice_B": "While Loop",
+            "choice_C": "Recursive Function",
+            "choice_D": "Array"
+          },
+          "correct_answer": "A",
+          "explanation": "The picture represents a for loop."
+        },
+        
+        {
+          "id":16,
+          "question_type": "Image",
+          "question": "What does the following represent?",
+          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizpic_4.png?raw=true",
+          "choices": {
+            "choice_A": "Array",
+            "choice_B": "Tuple",
+            "choice_C": "List",
+            "choice_D": "Dictionary"
+          },
+          "correct_answer": "C",
+          "explanation": "The picture represents a list."
+        }
+     ]
+}
