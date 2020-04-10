@@ -1,9 +1,9 @@
 {
-   "Python_Quiz": [     
+   "Java_Quiz": [     
         {
           "id": 1,
           "question_type": "MC",
-          "question": "What is the current version of python?",
+          "question": "What is the current version of Java?",
           "choices": {
             "choice_A": "2.7.4",
             "choice_B": "3.8.2",
