@@ -3,123 +3,123 @@
         {
           "id": 1,
           "question_type": "MC",
-          "question": "What is the current version of Java?",
+          "question": "Which of these is not a variable type?",
           "choices": {
-            "choice_A": "2.7.4",
-            "choice_B": "3.8.2",
-            "choice_C": "1.1",
-            "choice_D": "3.7.7"
+            "choice_A": "double",
+            "choice_B": "int",
+            "choice_C": "char",
+            "choice_D": "jar"
           },
           "correct_answer": "B",
-          "explanation": "The most up-to-date python version is 3.8.2."
+          "explanation": "Jar is not a variable in java."
         },
         
         {
           "id": 2,
           "question_type": "MC",
-          "question": "What isn't a python data type?",
+          "question": "Which of these is not a valid operator?",
           "choices": {
-            "choice_A": "list",
-            "choice_B": "dict",
-            "choice_C": "int",
-            "choice_D": "double"
+            "choice_A": "++",
+            "choice_B": "--",
+            "choice_C": "%",
+            "choice_D": "**"
           },
           "correct_answer": "D",
-          "explanation": "Double is not a data type in python, it is in java."
+          "explanation": "Increment, decrement, and modulo are operators in java."
         },
         
         {
           "id":3,
           "question_type": "MC",
-          "question": "What is the modulo operator in python?",
+          "question": "What is the equal to operator?",
           "choices": {
-            "choice_A": "+",
-            "choice_B": "/",
-            "choice_C": "%",
-            "choice_D": "-"
+            "choice_A": "=",
+            "choice_B": ">=",
+            "choice_C": "==",
+            "choice_D": "equals"
           },
           "correct_answer": "C",
-          "explanation": "The modulo operator in python is %."
+          "explanation": "The equal to operator in java is ==."
         },
         
         {
           "id":4,
           "question_type": "MC",
-          "question": "What is the correct syntax for initializing variables in python?",
+          "question": "What is the correct syntax for initializing integer variables in python?",
           "choices": {
             "choice_A": "x = 5",
-            "choice_B": "String name = 'Mary'",
+            "choice_B": "number = 5",
             "choice_C": "var x = 5",
             "choice_D": "int x = 5"
           },
-          "correct_answer": "A",
-          "explanation": "The correct syntax for initailizing variables in python is 'x = 5'"
+          "correct_answer": "D",
+          "explanation": "The correct syntax for initailizing integer variables in java is 'int x = 5'"
         },
         
         {
           "id":5,
           "question_type": "MC",
-          "question": "What is the correct syntax for initializing arrays in python?",
+          "question": "What is the correct syntax for initializing arrays in java?",
           "choices": {
-            "choice_A": "arr = (0, 1, 2)",
-            "choice_B": "arr(0, 1, 2)",
+            "choice_A": "int[] arr = (0, 1, 2)",
+            "choice_B": "int[] arr= {0, 1, 2}",
             "choice_C": "arr = {0, 1, 2}",
             "choice_D": "arr = [0, 1, 2]"
           },
-          "correct_answer": "D",
-          "explanation": "The correct syntax to initialize arrays is arr = [0, 1, 2]."
+          "correct_answer": "B",
+          "explanation": "The correct syntax to initialize arrays is int arr[] = {0, 1, 2}."
         },
         
         {
           "id":6,
           "question_type": "TF",
-          "question": "Semi-colons are considered pythonic.",
+          "question": "There are switch statements in java.",
           "choices": {
             "choice_A": "True",
             "choice_B": "False"
           },
-          "correct_answer": "B",
-          "explanation": "Pythonic code usually includes single statements on each line indicated by tabbing."
+          "correct_answer": "A",
+          "explanation": "Switch statements do exist in java."
         },
         
         {
           "id":7,
           "question_type": "TF",
-          "question": "Python has booleans.",
+          "question": "Java has booleans.",
           "choices": {
             "choice_A": "True",
             "choice_B": "False"
           },
           "correct_answer": "A",
-          "explanation": "Booleans values and functions are included in python."
+          "explanation": "Booleans values and functions are included in java."
         },
         
         {
           "id":8,
           "question_type": "TF",
-          "question": "You can create Dictionaries in python.",
+          "question": "You can create Dictionaries in java by default.",
           "choices": {
             "choice_A": "True",
             "choice_B": "False"
           },
-          "correct_answer": "A",
-          "explanation": "Dictionaries can be created and used within python."
+          "correct_answer": "B",
+          "explanation": "Dictionaries can be introduced with packages in java."
         },
         
         {
           "id":9,
           "question_type": "FillIn",
-          "question": "________ are used to store values.",
-          "correct_answer": "Variables",
-          "explanation": "To store values in python, variables are used."
+          "question": "________ statements are used to stop code or a loop.",
+          "correct_answer": "Break",
+          "explanation": "Break statements are used to stop code or a loop in java."
         },
         
         {
           "id":10,
           "question_type": "FillIn",
-          "question": "A while loop can be used to ________ through statements.",
-          "correct_answer": "iterate",
-          "explanation": "A while loop can be used to iterate through code multiple times depending on the condition."
+          "question": "A ________ statement can be used to select specific code to run.",
+          "correct_answer": "switch",
+          "explanation": "A switch statement allows the user to choose certain code blocks to run."
         },
         
         {
@@ -142,7 +142,7 @@
           "id":13,
           "question_type": "Image",
           "question": "What does the following represent?",
-          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizpic_1.png?raw=true",
+          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizpic_5.png?raw=true",
           "choices": {
             "choice_A": "Array",
             "choice_B": "List",
@@ -196,6 +196,70 @@
           },
           "correct_answer": "C",
           "explanation": "The picture represents a list."
+        },
+        
+        {
+          "id": 17,
+          "question_type": "TF",
+          "question": "Integer is a numeric data type in python.",
+          "choices": {
+            "choice_A": "True",
+            "choice_B": "False"
+          },
+          "correct_answer": "A",
+          "explanation": "Integer is a valid numeric data type."
+        },
+        
+        {
+          "id": 18,
+          "question_type": "TF",
+          "question": "Lambda functions can be made in python.",
+          "choices": {
+            "choice_A": "True",
+            "choice_B": "False"
+          },
+          "correct_answer": "A",
+          "explanation": "Lambda functions are possible in python."
+        },
+        
+        {
+          "id": 19,
+          "question_type": "TF",
+          "question": "Inheritance is possible in python.",
+          "choices": {
+            "choice_A": "True",
+            "choice_B": "False"
+          },
+          "correct_answer": "A",
+          "explanation": "Inheritance can be done in python."
+        },
+        
+        {
+          "id": 20,
+          "question_type": "PicAns",
+          "question": "Which picture displays a set?",
+          "choices": {
+            "choice_A": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizans_1.png?raw=true",
+            "choice_B": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizans_2.png?raw=true",
+            "choice_C": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizans_3.png?raw=true",
+            "choice_D": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizans_4.png?raw=true"
+          },
+          "correct_answer": "B",
+          "explanation": "A set is made with brackets."
+        },
+        
+        {
+          "id": 21,
+          "question_type": "",
+          "question": "",
+          "choices": {
+            "choice_A": "",
+            "choice_B": "",
+            "choice_C": "",
+            "choice_D": ""
+          },
+          "correct_answer": "",
+          "explanation": ""
         }
      ]
 }
