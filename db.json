@@ -125,77 +125,77 @@
         {
           "id":11,
           "question_type": "FillIn",
-          "question": "An array starts with the index value ________.",
-          "correct_answer": "zero",
-          "explanation": "Arrays always starts indexing from the value zero."
+          "question": "The .________() method will get the length of a string.",
+          "correct_answer": "length",
+          "explanation": ".length() can be attached to a string to get the integer value length of it."
         },
         
         {
           "id":12,
           "question_type": "FillIn",
-          "question": "________ values consist of zeros and ones.",
-          "correct_answer": "Binary",
-          "explanation": "Binary code consists of 0s and 1s"
+          "question": "________ values are passed as arguments into functions.",
+          "correct_answer": "Parameter",
+          "explanation": "Methods in java can take in arguments with parameter values."
         },
         
         {
           "id":13,
           "question_type": "Image",
           "question": "What does the following represent?",
-          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizpic_5.png?raw=true",
+          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quiz2pic1.png?raw=true",
           "choices": {
-            "choice_A": "Array",
-            "choice_B": "List",
-            "choice_C": "Tuple",
-            "choice_D": "Dictionary"
+            "choice_A": "If...else statements",
+            "choice_B": "Switch statements",
+            "choice_C": "Recursive Function",
+            "choice_D": "Object"
           },
-          "correct_answer": "D",
-          "explanation": "The picture represents a dictionary."
+          "correct_answer": "A",
+          "explanation": "The picture represents if...else statements."
         },
         
         {
           "id":14,
           "question_type": "Image",
           "question": "What does the following represent?",
-          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizpic_2.png?raw=true",
+          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quiz2pic2.png?raw=true",
           "choices": {
             "choice_A": "If...else statements",
-            "choice_B": "Sets",
-            "choice_C": "Lambda statements",
-            "choice_D": "Booleans"
+            "choice_B": "Switch statements",
+            "choice_C": "Recursive Function",
+            "choice_D": "Object"
           },
-          "correct_answer": "A",
-          "explanation": "The picture demostrates the use of if...else statements."
+          "correct_answer": "B",
+          "explanation": "The picture represents switch statements."
         },
         
         {
           "id":15,
           "question_type": "Image",
           "question": "What does the following represent?",
-          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizpic_3.png?raw=true",
+          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quiz2pic3.png?raw=true",
           "choices": {
-            "choice_A": "For Loop",
-            "choice_B": "While Loop",
+            "choice_A": "If...else statements",
+            "choice_B": "Switch statements",
             "choice_C": "Recursive Function",
-            "choice_D": "Array"
+            "choice_D": "Object"
           },
-          "correct_answer": "A",
-          "explanation": "The picture represents a for loop."
+          "correct_answer": "D",
+          "explanation": "The picture represents an object."
         },
         
         {
           "id":16,
           "question_type": "Image",
           "question": "What does the following represent?",
-          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quizpic_4.png?raw=true",
+          "question_image": "https://github.com/Brian-Khuu/CUS1172_Assests/blob/master/quiz2pic4.png?raw=true",
           "choices": {
-            "choice_A": "Array",
-            "choice_B": "Tuple",
-            "choice_C": "List",
-            "choice_D": "Dictionary"
+            "choice_A": "If...else statements",
+            "choice_B": "Switch statements",
+            "choice_C": "Recursive Function",
+            "choice_D": "Object"
           },
           "correct_answer": "C",
-          "explanation": "The picture represents a list."
+          "explanation": "The picture represents a recursive function."
         },
         
         {
