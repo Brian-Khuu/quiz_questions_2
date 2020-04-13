@@ -45,7 +45,7 @@
         {
           "id":4,
           "question_type": "MC",
-          "question": "What is the correct syntax for initializing integer variables in python?",
+          "question": "What is the correct syntax for initializing integer variables in java?",
           "choices": {
             "choice_A": "x = 5",
             "choice_B": "number = 5",
